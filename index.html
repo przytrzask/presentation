@@ -1,38 +1,228 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+	<title>reveal.js</title>
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/blood.css">
 
-		<!-- Printing and PDF exports -->
-		<script>
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
 			var link = document.createElement( 'link' );
 			link.rel = 'stylesheet';
 			link.type = 'text/css';
 			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section data-background-color="fff">
+
+				<h2>Lista Technlogii</h2>
+				
+					<a href="https://jquery.com/"><img style="height: 100px; width: auto;" data-src="./img/jquery.png" /></a>
+					<a href="https://angularjs.org/"><img style="height: 100px; width: auto;" data-src="./img/angularjs.jpg" /></a>
+					<a href='https://facebook.github.io/react/'><img style="height: 100px; width: auto;" data-src="./img/react.png" /></a>
+					<a href="https://angular.io/"><img style="height: 100px; width: auto;" data-src="./img/ang2.png" /></a>
+					<a href="https://vuejs.org/"><img style="height: 100px; width: auto;" data-src="./img/vue.png" /></a>
+
+				
+			</section>
+			<section>
+				<h2>Bezpieczeństwo</h2>
+
+				<p style="color: rgb(221, 85, 102);">Teoretycznie większe bezpieczeństwo zapewniają frameworki. Posiadają metodty zamiany niebezpiecznych stringów co może
+					ochronić przed xss, ale ogólnie bezpieczeństwo zależy od użytkownika,a przede wszystkim backendu </p>
+
+
+
+			</section>
+			<section>
+				<h2>ROZWÓJ</h2>
+				<table>
+					<thead>
+						<tr>
+							<th></th>
+							<th>jQuery</th>
+							<th>Angular1</th>
+							<th>React</th>
+							<th>Angular2</th>
+							<th>Vue</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th>1wydanie</th>
+							<td>2005</td>
+							<td>2009</td>
+							<td>2013</td>
+							<td>2015</td>
+							<td>2014</td>
+						</tr>
+						<tr>
+							<th>rozwój</th>
+							<td style="color:#FF9100;">ND</td>
+							<td style="color:#FF9100;">NIE</td>
+							<td style="color:#00E676;">TAK</td>
+							<td style="color:#00E676;">TAK</td>
+							<td style="color:#00E676;">TAK</td>
+						</tr>
+						<tr>
+							<th>wsparcie</th>
+							<td style="color:#FF9100;">ND</td>
+							<td style="color:#FF9100;">jakiś czas</td>
+							<td style="color:#00E676;">TAK</td>
+							<td style="color:#00E676;">TAK</td>
+							<td style="color:#00E676;">TAK</td>
+						</tr>
+						<tr>
+							<th>es2015/16</th>
+							<td style="color:#FF5252;">NIE</td>
+							<td style="color:#FF5252;">NIE</td>
+							<td style="color:#00E676;">ES6/7</td>
+							<td style="color:#00E676;">Typescript</td>
+							<td style="color:#FF9100;">opcja</td>
+						</tr>
+					</tbody>
+				</table>
+
+
+			</section>
+			<section>
+				<h4>Frameworki Css</h4>
+				<table style="table-layout: fixed;">
+					<thead>
+						<tr>
+
+							<th>jQuery</th>
+							<th>Angular1</th>
+							<th>React</th>
+							<th>Angular2</th>
+							<th>Vue</th>
+						</tr>
+					</thead>
+					<tbody>
+
+						<tr>
+
+							<td><a href="http://semantic-ui.com/">SemanticUI</a>
+							</td>
+							<td><a href="https://material.angularjs.org/latest/">Angular Material</a>
+
+							</td>
+							<td><a href="http://www.material-ui.com/#/">MaterialUI</a>
+								<a href="https://grommet.github.io/docs/icon">Grommet</a></td>
+							<td>nieukończony NgMaterial </td>
+							<td><a href="https://vuematerial.github.io/">vueMaterial</a></td>
+						</tr>
+					</tbody>
+				</table>
+
+				<p>Dostępne dla wszystkich</p>
+				<ul>
+					<li><a href="http://getbootstrap.com/">Bootstrap</a></li>
+					<li><a href="http://foundation.zurb.com/">Foundation</a></li>
+					<li><a href="http://materializecss.com/">matrialize</a></li>
+				</ul>
+
+
+			</section>
+
+			<section>
+				<h4>wydajność</h4>
+				<ul>
+					<li style="color:#00E676;">React/Angular2/VUE</li>
+					<li style="color:#FF9100;">Angular1 (5x wolniejszy)</li>
+					<li style="color:#FF5252;">Pure jQuery</li>
+
+				</ul>
+			</section>
+			<section>
+				<h4>Dostępność Bibliotek/pluginów/komponentów</h4>
+				<ul>
+					<li style="color:#00E676;">jQuery - Najwięcej, mniej nowych</li>
+					<li style="color:#00E676;">React- Bardzo dużo, najwięcej nowych</li>
+					<li style="color:#FF9100;">Angular1 - Bardzo dużo, mniej nowych</li>
+					<li style="color:#FF5252;">>Vue/aNgular2 - bardzo mało, nowe w trakcie</li>
+
+				</ul>
+			</section>
+			<section>
+				<h4>Dostępność gotowych dahboard szablonów</h4>
+				<ul>
+					<li style="color:#00E676;">jQuery - Najwięcej</li>
+					
+					<li style="color:#00E676;">Angular 1 - Bardzo dużo, sporo nowych</li>
+					<li style="color:#FF9100;">React - umiarkowanie dużo</li>
+					<li style="color:#FF5252;">>Vue/Angular2 - bardzo mało, nowe w trakcie</li>
+
+				</ul>
+			</section>
+			<section>
+				<h4>PRzygotowanie środowiska/Szybkość pisania/reużywalność kodu</h4>
+				<ul>
+					<li>React - Zaawansowane środowisko/Szybko się pisze/podział na reużywalne komponenty/klasy</li>
+					<li>Angular1 - umiarkowane środowisko/szybko się pisze/ posiada serwisy(gorsze niż react) </li>
+					<li>jQuery - nie wymaga środowiska/szybkie pisanie/słaba reużywalność </li>
+					<li>Angular2 - bardzo skomplikowane środowisko/wolny w pisaniu/komponenty</li>
+					<li>VUE - proste środowisko, bardzo szybkie pisanie/komponenty jak react</li>
+
+				</ul>
+			</section>
+			<section>
+				<h4>Router/State Managemennt</h4>
+				<table>
+					<thead>
+						<tr>
+							
+							<th>jQuery</th>
+							<th>Angular1</th>
+							<th>React</th>
+							<th>Angular2</th>
+							<th>Vue</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							
+							<td><span style="color:#FF5252;">ND</span></td>
+							<td><span style="color:#00E676;">TAK<span style="color:#FF5252;">/NIE</span></td>
+							<td style="color:#00E676;">TAK/REDUX</td>
+							<td><span style="color:#00E676;">TAK</span>/<span style="color:#FF9100;">BD</span></td>
+							<td><span style="color:#00E676;">TAK</span>/VUEX</td>
+						</tr>
+						
+					</tbody>
+				</table>
+
+
+			</section>
+			<section>
+				<h4>Linki/Artykuły</h4>
+				<ul>
+					<li><a href="">Statystyki użytkowników</a></li>
+					
+
+				</ul>
+			</section>
+			<section>
 		</div>
+	</div>
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
 
-		<script>
+	<script>
 			// More info https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
 				history: true,
@@ -46,5 +236,6 @@
 				]
 			});
 		</script>
-	</body>
+</body>
+
 </html>
